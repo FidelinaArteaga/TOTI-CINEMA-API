@@ -1,0 +1,19 @@
+{
+  "name": "toti-cinema",
+  "version": "1.0.0",
+  "description": "Consumo de API com Javascrip",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FidelinaArteaga/Toti-cinema.git"
+  },
+  "author": "AndresReinoza Fidelina Arteaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FidelinaArteaga/Toti-cinema/issues"
+  },
+  "homepage": "https://github.com/FidelinaArteaga/Toti-cinema#readme"
+}
