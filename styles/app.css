@@ -1,15 +1,8 @@
-/* General */
 * { box-sizing: border-box; }
 
 :root {
-  --purple-light-1: #FBFAFB;
-  --purple-light-2: #EEEAF2;
-  --purple-medium-1: #AA83C8;
-  --purple-medium-2: #8B48BF;
-  --purple-medium-3: #5C218A;
-  --purple-dark-1: #3E0F64;
-  --purple-dark-2: #2A0646;
-
+  --purple-light-1: #cbaafc;
+  --purple-dark-2: rgb(36, 0, 36);
   --yellow: #EECC75;
   --green: #CAD297;
   --aqua: #B7EAC5;
@@ -30,7 +23,7 @@ html {
 }
 
 body {
-  background-color: red;
+  background-color: var(--purple-light-1);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
@@ -44,8 +37,17 @@ h1, h2, h3 {
   padding: 0;
 }
 
-h1, h2 {
-  font-size: 24px;
+h1 {
+  font-size: 40px;
+  color: var(--purple-dark-2);
+  font-family: var(--font-family-titles);
+  font-weight: var(--font-weight-title1);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
   color: var(--purple-dark-2);
   font-family: var(--font-family-titles);
   font-weight: var(--font-weight-title1);
@@ -66,7 +68,7 @@ h3 {
 }
 
 input {
-  background-color: var(--purple-light-2);
+  background-color: white;
   color: var(--purple-medium-2);
   border: none;
   font-size: 18px;
@@ -79,7 +81,7 @@ input::placeholder {
 }
 
 button {
-  background-color: var(--purple-dark-1);
+  background-color: var(white);
   border: none;
   color: var(--purple-light-2);
   font-weight: var(--font-weight-text2);
@@ -239,21 +241,21 @@ button {
 #id16 { --idColor: var(--green); }
 #id35 { --idColor: var(--lightBlue); }
 #id80 { --idColor: var(--darkBlue); }
-#id99 { --idColor: var(--purple-dark-1); }
-#id18 { --idColor: var(--purple-medium-1); }
+#id99 { --idColor: gray; }
+#id18 { --idColor: rgb(248, 156, 209);  }
 #id10751 { --idColor: var(--yellow); }
 #id14 { --idColor: var(--red); }
 #id36 { --idColor: var(--green); }
 #id27 { --idColor: var(--lightBlue); }
 #id10402 { --idColor: var(--darkBlue); }
-#id9648 { --idColor: var(--purple-dark-1); }
-#id10749 { --idColor: var(--purple-medium-1); }
+#id9648 { --idColor: var(rgb(58, 58, 58)); }
+#id10749 { --idColor: rgb(255, 177, 33); }
 #id878 { --idColor: var(--yellow); }
 #id10770 { --idColor: var(--red); }
 #id53 { --idColor: var(--green); }
 #id10752 { --idColor: var(--lightBlue); }
 #id37 { --idColor: var(--darkBlue); }
-
+#id9648 { --idColor: rgb(100, 10, 100);}
 
 /* Generic List (search, trending & category) */
 .genericList-container {
